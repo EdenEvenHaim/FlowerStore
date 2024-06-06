@@ -1,4 +1,17 @@
-body {
-    background-color: cadetblue;
-    text-align: center;
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(darkmagenta, pink);
+        text-align: center;
+        }
+        
+.flower > img {
+    border: 1px solid black;
+    width: 50%;
+}
+.myFlower > img {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
 }
